@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<!-- Metadatos -->
+		<meta charset="utf-8">
+		<meta name="author" content="Tobías Grandi">
+		<meta name="description" content="Portafolio de desarrollo de Tobías Grandi">
+		<meta name="keywords" content="HTML, CSS, Bootstrap, Python, Django">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Titulo -->
+		<title>Tobías Grandi | Desarrollador</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="images/icono.png">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Google fonts  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+			<!-- Barra de navegacion -->
+			<nav class="navbar navbar-expand-md navbar-light fixed-top">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand-col d-md-none" href="">
+						<img class="logo-navbar" src="images/icono.png" width="50" alt="Logo de la página">
+					</a>
+					<div class="collapse navbar-collapse" id="navbar-toggler">
+							<a class="navbar-brand" href="">
+								<img class="logo-navbar" src="images/icono.png" width="50" alt="Logo de la página">
+							</a>
+						<ul class="navbar-nav d-flex justify-content-center align-items-center">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#proyectos-recientes">Proyectos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#contacto">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Seccion Hero -->
+			<section class="hero align-items-stretch">
+
+				<div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+					<img class="img-hero" src="images/hero.png" alt="Foto de Tobías Grandi">
+					<h1>Hola, soy Tobías Grandi</h1>
+					<h2>Estudiante avanzado de Ingeniería en Sistemas de Información</h2>
+				</div>
+
+				<div class="hero-inferior">
+					<img class="hero-inferior-imagen img-fluid" src="images/hero-inferior.jpg" alt="Imagen ilustrativa - lenguajes de programación">
+				</div>
+			</section>
+
+			<!-- Sobre mi -->
+			<section id="sobre-mi" class="sobre-mi seccion-oscura">
+				<div class="contenedor d-flex flex-column justify-content-center align-items-center">
+					<h2 class="seccion-titulo">
+						Sobre mí
+					</h2>
+					<p class="seccion-texto">
+						Desde niño me considero un apasionado por la computación y sus diferentes ramas, y logro confirmarlo con cada nuevo conocimiento. <br>
+						Actualmente me encuentro en mis últimos años de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional - Facultad Regional de Concepción del Uruguay.<br>
+						Allí mismo formo parte del Grupo de Investigación en Inteligencia Computacional e Ingeniería de Software y participo como ayudante de cátedra en la asignatura Lógica y Estructuras Discretas.<br>
+					</p>
+				</div>
+			</section>
+
+			<!-- Proyectos -->
+			<section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+				<h1 class="seccion-titulo texto-negro">
+					Mis proyectos recientes
+				</h1>
+				<!-- Galeria de proyectos -->
+				<div class="container text-center proyectos-contenedor">
+					<div class="row">
+						<!-- Proyecto ACO -->
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="proyecto">
+								<img src="images/proyectos/proyecto-aco.png" alt="Imagen ilustrativa ACO">
+								<div class="overlay">
+									<p>Algoritmo de optimización por colonia de hormigas</p>
+								</div>
+							</div>
+						</div>
+						<!-- Proyecto Plan -->
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="proyecto">
+								<img src="images/proyectos/proyecto-plan.jpg" alt="Imagen ilustrativa proyecto plan de estudios">
+								<div class="overlay">
+									<p>Programa seguimiento plan de estudios</p>
+									<div class="iconos-contenedor">
+										<a href="https://github.com/tobiasgrandi/Seguimiento-Plan-Carrera" target="_blank" rel="noopener noreferrer">
+											<i class="bi bi-github"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Proyecto Lenguaje -->
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="proyecto">
+								<img src="images/proyectos/proyecto-lenguaje.jpeg" alt="Imagen ilustrativa proyecto lenguaje de programación">
+								<div class="overlay">
+									<p>Lenguaje de programación propio</p>
+									<div class="iconos-contenedor">
+										<a href="https://github.com/tobiasgrandi/Lenguaje-Programacion" target="_blank" rel="noopener noreferrer">
+											<i class="bi bi-github"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mas-proyectos">
+					<a href="https://github.com/tobiasgrandi" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-info">
+							Ver más proyectos
+							<i class="bi bi-arrow-right-circle-fill"></i>
+						</button>
+					</a>
+				</div>
+			</section>
+
+			<!-- Contacto -->
+			<section id="contacto" class="contacto seccion-oscura">
+				<div class="container">
+					<div class="container text-center rectangulo justify-content-evenly">
+						<div class="row">
+							<div class="col-12 col-md-6 seccion-titulo">
+								Hablemos
+							</div>
+							<div class="col-12 col-md-6">
+								<a href="mailto: granditobias@gmail.com">
+									<button type="button">
+										Contacto
+										<i class="bi bi-envelope-fill"></i>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Pie de pagina (footer) -->
+			<footer class="seccion-oscura d-flex flex-column align-items-center justify">
+				<img class="footer-logo" src="images/icono-blanco.svg" alt="Logo portafolio">
+				<p class="footer-texto text-center">Contáctame</p>
+				<div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+					<a href="https://www.linkedin.com/in/tobias-grandi-301a76227/" target="_blank" rel="noopener noreferrer">
+						<i class="bi bi-linkedin"></i>
+					</a>
+					<a href="mailto: granditobias@gmail.com">
+						<i class="bi bi-envelope-fill"></i>
+					</a>
+					<a href="https://github.com/tobiasgrandi" target="_blank" rel="noopener noreferrer">
+						<i class="bi bi-github"></i>
+					</a>
+					<a href="https://www.instagram.com/tobigrandi/" target="_blank" rel="noopener noreferrer">
+						<i class="bi bi-instagram"></i>
+					</a>
+				</div>
+
+				<div class="derechos-de-autor">Creado por Tobías Grandi (2024) &#169;</div>
+			</footer>
+
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

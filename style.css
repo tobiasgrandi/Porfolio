@@ -1,0 +1,337 @@
+/* Barra de navegación */
+
+.navbar {
+	padding: 0.5rem;
+	background-color: #f5f6f0;
+}
+
+.navbar-collapse {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo-navbar {
+	height: 85px;
+	width: auto;
+}
+
+.navbar li {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+/* Estilos generales */
+
+body {
+	padding-top: 100px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.seccion-oscura{
+	background-color: #1521ca9f;
+	color: white
+}
+
+.seccion-clara {
+	color: black;
+	background-color: #f5f6f7;
+}
+
+.seccion-titulo {
+	font-size: 2.5rem;
+	padding: 0.5rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.seccion-descripcion {
+	font-size: 1.2rem;
+}
+
+.seccion-texto {
+	font-size: 1.25rem;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.btn-info {
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.texto-negro {
+	color: black;
+}
+
+.texto-blanco {
+	color:white
+}
+/* Seccion hero*/
+
+.hero {
+	background-color: #f5f6f7;
+	min-height: 450px;
+	text-align: center;
+}
+
+.hero-principal {
+	padding: 0.5rem;
+}
+
+.hero-principal h2 {
+	font-size: 1.5rem;
+	color: #1521ca9f;
+	font-family: 'Poppins', sans-serif;
+}
+
+.img-hero{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.hero-inferior {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.hero-inferior-imagen{
+	border: 2px solid #000;
+	border-radius: 2%;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+	height: auto;
+	padding: 0.5rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.sobre-mi .contenedor {
+	max-width: 600px;
+	text-align: center;
+}
+
+/* Proyectos */
+
+.proyectos-recientes {
+	padding: 40px;
+}
+
+.proyectos-recientes img {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	display: block;
+	transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+	padding-top: 60px;
+	margin-bottom: 40px;
+}
+
+.overlay {
+	transition: all 0.2s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.overlay p {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.proyecto {
+	position: relative;
+}
+
+.proyecto img {
+	margin: 10px;
+}
+
+.proyecto:hover .overlay{
+	opacity: 1;
+}
+
+.proyecto:hover img{
+	opacity: 0.2;
+}
+
+.overlay i {
+	color: black;
+	font-size: 60px;
+	margin: 10px;
+}
+
+.mas-proyectos button {
+	margin-bottom: 50px;
+}
+
+/* Contacto */
+
+.contacto .container {
+	max-width: 900px;
+	min-height: 150px;
+	padding: 20px;
+}
+
+.contacto .rectangulo {
+	margin-top: -5rem;
+	background-color: rgb(13, 110, 253);
+	border-radius: 10px;
+	box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.contacto .descripcion {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.contacto button {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: transparent;
+	border: 2px solid white;
+	padding: 1.25em 2em;
+	margin: 10px;
+	border-radius: 100px;
+	transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+	color: white;
+	font-size: 1.3rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+	background-color: white;
+	color: black
+}
+
+.contacto button:hover i {
+	color: black
+}
+
+/* Pie de pagina (footer)*/
+
+footer {
+	min-height: 50px;
+}
+
+.footer-logo {
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
+.footer-texto {
+	font-size: 1.5rem;
+	padding: 20px;
+	margin-bottom: 30px;
+	font-family: 'Poppins', sans-serif;
+	/*font-weight: bold;*/
+}
+
+.iconos-redes a{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid white;
+	border-radius:  50%;
+	transition: all 0.2s ease-in;
+}
+
+.iconos-redes i {
+	color: white;
+	font-size: 1.5rem;
+	transition: all 0.2s ease-in;
+}
+
+.iconos-redes a:hover {
+	background-color: white;
+	border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes a:hover i {
+	color: black;
+}
+
+.derechos-de-autor {
+	font-size: 15px;
+	color: #aeaeae;
+	padding: 20px;
+}
+
+/*Adaptable (Responsive)*/
+
+@media screen and (max-width: 767px) {
+	.navbar-brand {
+		display: none;
+	}
+	.navbar{
+		padding-top: 25px;
+	}
+	.navbar-toggler {
+		height: 55px;
+		width: 55px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.hero-inferior-imagen {
+		max-width: 600px
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.overlay p {
+		font-size: 18px;
+	}
+
+	.overlay i {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 325px) {
+	.overlay p {
+		font-size: 9px;
+	}
+
+	.overlay i {
+		font-size: 20px;
+	}
+}

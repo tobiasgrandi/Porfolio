@@ -21,6 +21,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+		<!-- Javascript -->
+		<script src="script.js"></script>
     </head>
     <body>
 			<!-- Barra de navegacion -->
@@ -84,47 +86,67 @@
 				<h1 class="seccion-titulo texto-negro">
 					Mis proyectos recientes
 				</h1>
-				<!-- Galeria de proyectos -->
-				<div class="container text-center proyectos-contenedor">
-					<div class="row">
-						<!-- Proyecto ACO -->
-						<div class="col-12 col-md-12 col-lg-4">
-							<div class="proyecto">
-								<img src="images/proyectos/proyecto-aco.png" alt="Imagen ilustrativa ACO">
-								<div class="overlay">
-									<p>Algoritmo de optimización por colonia de hormigas</p>
-								</div>
-							</div>
+
+
+				<div class="proyectos-contenedor">
+					<div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
 						</div>
-						<!-- Proyecto Plan -->
-						<div class="col-12 col-md-12 col-lg-4">
-							<div class="proyecto">
-								<img src="images/proyectos/proyecto-plan.jpg" alt="Imagen ilustrativa proyecto plan de estudios">
-								<div class="overlay">
-									<p>Programa seguimiento plan de estudios</p>
-									<div class="iconos-contenedor">
-										<a href="https://github.com/tobiasgrandi/Seguimiento-Plan-Carrera" target="_blank" rel="noopener noreferrer">
-											<i class="bi bi-github"></i>
-										</a>
+						<div class="carousel-inner">
+								<div class="carousel-item active proyecto">
+									<img src="images/proyectos/proyecto-aco.png" alt="Imagen ilustrativa ACO" class="d-block w-100">
+									<div class="overlay">
+										<p>Investigación sobre algoritmo de optimización por colonia de hormigas</p>
+									</div>
+								</div>
+								<div class="carousel-item proyecto">
+									<img src="images/proyectos/proyecto-plan.jpg" alt="Imagen ilustrativa proyecto plan de estudios" class="d-block w-100">
+									<div class="overlay">
+										<p>Programa seguimiento plan de estudios</p>
+										<div class="iconos-contenedor">
+											<a href="https://github.com/tobiasgrandi/Seguimiento-Plan-Carrera" target="_blank" rel="noopener noreferrer">
+												<i class="bi bi-github"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item proyecto">
+									<img src="images/proyectos/proyecto-lenguaje.jpeg" alt="Imagen ilustrativa proyecto lenguaje de programación" class="d-block w-100">
+									<div class="overlay">
+										<p>Lenguaje de programación propio</p>
+										<div class="iconos-contenedor">
+											<a href="https://github.com/tobiasgrandi/Lenguaje-Programacion" target="_blank" rel="noopener noreferrer">
+												<i class="bi bi-github"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item proyecto">
+									<img src="images/proyectos/proyecto-youtube.png" alt="Imagen ilustrativa youtube" class="d-block w-100">
+									<div class="overlay">
+										<p>App web <br> Descarga de audio/video de Youtube</p>
+										<div class="iconos-contenedor">
+											<a href="https://github.com/tobiasgrandi/Youtube-Downloader" target="_blank" rel="noopener noreferrer">
+												<i class="bi bi-github"></i>
+											</a>
+											<a href="https://tobiasgrandi.github.io/Youtube-Downloader/" target="_blank" rel="noopener noreferrer">
+												<i class="bi bi-link-45deg"></i>
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							</button>
 						</div>
-						<!-- Proyecto Lenguaje -->
-						<div class="col-12 col-md-12 col-lg-4">
-							<div class="proyecto">
-								<img src="images/proyectos/proyecto-lenguaje.jpeg" alt="Imagen ilustrativa proyecto lenguaje de programación">
-								<div class="overlay">
-									<p>Lenguaje de programación propio</p>
-									<div class="iconos-contenedor">
-										<a href="https://github.com/tobiasgrandi/Lenguaje-Programacion" target="_blank" rel="noopener noreferrer">
-											<i class="bi bi-github"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 
 				<div class="mas-proyectos">

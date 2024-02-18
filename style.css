@@ -162,12 +162,16 @@ h1 {
 	margin-bottom: 0;
 }
 
+.carousel {
+	max-width: 400px;
+}
+
 .proyecto {
 	position: relative;
 }
 
 .proyecto img {
-	margin: 10px;
+	border: 3px solid black;
 }
 
 .proyecto:hover .overlay{

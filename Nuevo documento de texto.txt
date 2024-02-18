@@ -1,0 +1,42 @@
+				<!-- Galeria de proyectos -->
+				<div class="container text-center proyectos-contenedor">
+					<div class="row">
+						<!-- Proyecto ACO -->
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="proyecto">
+								<img src="images/proyectos/proyecto-aco.png" alt="Imagen ilustrativa ACO">
+								<div class="overlay">
+									<p>Algoritmo de optimización por colonia de hormigas</p>
+								</div>
+							</div>
+						</div>
+						<!-- Proyecto Plan -->
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="proyecto">
+								<img src="images/proyectos/proyecto-plan.jpg" alt="Imagen ilustrativa proyecto plan de estudios">
+								<div class="overlay">
+									<p>Programa seguimiento plan de estudios</p>
+									<div class="iconos-contenedor">
+										<a href="https://github.com/tobiasgrandi/Seguimiento-Plan-Carrera" target="_blank" rel="noopener noreferrer">
+											<i class="bi bi-github"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Proyecto Lenguaje -->
+						<div class="col-12 col-md-12 col-lg-4">
+							<div class="proyecto">
+								<img src="images/proyectos/proyecto-lenguaje.jpeg" alt="Imagen ilustrativa proyecto lenguaje de programación">
+								<div class="overlay">
+									<p>Lenguaje de programación propio</p>
+									<div class="iconos-contenedor">
+										<a href="https://github.com/tobiasgrandi/Lenguaje-Programacion" target="_blank" rel="noopener noreferrer">
+											<i class="bi bi-github"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>

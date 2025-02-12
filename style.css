@@ -127,8 +127,8 @@ h1 {
 }
 
 .seccion-texto{
-	text-align: justify;
-	hyphens: auto;
+	text-align: justify !important;
+	hyphens: auto !important;
 }
 
 /* Proyectos */

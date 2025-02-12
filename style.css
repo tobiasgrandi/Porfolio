@@ -126,6 +126,11 @@ h1 {
 	text-align: center;
 }
 
+.seccion-texto{
+	text-align: justify;
+	hyphens: auto;
+}
+
 /* Proyectos */
 
 .proyectos-recientes {

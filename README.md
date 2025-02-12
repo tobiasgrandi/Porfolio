@@ -1,2 +1,2 @@
-# Portafolio de proyectos
+# Porfolio de proyectos
 https://tobiasgrandi.github.io/Portafolio/

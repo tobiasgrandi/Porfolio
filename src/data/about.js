@@ -15,7 +15,7 @@ Me interesa especialmente el desarrollo de soluciones que integren IA, ciencia d
         {source: '', link:"https://www.linkedin.com/in/tobias-grandi-301a76227/", img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg", alt:'LinkedIn logo'},
         {source: '', link:"https://github.com/tobiasgrandi", img:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg', alt:'Github logo'},
         {source: '', link:"https://drive.google.com/file/d/1IcDT5waQS6q1frpRGIB47XJERVurnjun/view?usp=sharing", img:cv, alt:'CV logo'},
-        {source: '', link:"mailto:granditobias@gmail.com", img:email, alt:'Email logo'},
+        {source: '', link:"mailto:granditobias@gmail.com", img:email, alt:'Email logo'}, 
     ]
 }
 

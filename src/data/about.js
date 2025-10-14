@@ -6,7 +6,7 @@ const about = {
     name: "Tobías Grandi",
     img: profileImg,
     role: "Estudiante avanzado de Ingeniería en Sistemas de Información",
-    description: `Soy estudiante avanzado de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional, Facultad Regional Concepción del Uruguay. Desde muy joven me apasiona la computación y, con el tiempo, fui orientando mi camino hacia el fascinante mundo de la inteligencia artificial, el aprendizaje automático y el análisis de datos.
+    description: `Soy estudiante avanzado de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional, Facultad Regional Concepción del Uruguay. Desde que tengo memoria me apasiona la computación y, con el tiempo, fui orientando mi camino hacia el fascinante mundo de la inteligencia artificial, el aprendizaje automático y el análisis de datos.
 
 En mi casa de estudios, formo parte del Grupo de Investigación en Inteligencia Computacional y Optimización de Sistemas <a href="https://frcu.utn.edu.ar/giicos" target="_blank" rel="noopener noreferrer">(GIICOS)</a>, donde participo en el desarrollo de modelos y experimentos aplicados a distintas problemáticas reales, dando soporte a la toma de decisiones. Además, me desempeño como ayudante de cátedra en la materia Lógica y Estructuras Discretas, lo que me permite compartir conocimientos y fortalecer mi comprensión teórica.
 

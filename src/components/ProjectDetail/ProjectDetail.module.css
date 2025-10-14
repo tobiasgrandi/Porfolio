@@ -1,3 +1,22 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+  margin-bottom: 1rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
 .detail {
     flex: 1;
     padding: 40px;
@@ -34,7 +53,7 @@
 }
 
 .detail .detailText:hover {
-    background-color: rgba(56, 189, 248, 0.05);;
+    background-color: rgba(56, 189, 248, 0.05)
 }
 
 .detail p {
@@ -56,7 +75,7 @@
     padding-top: 60px;
 }
 
-.iconsContainer {
+.sourceContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -64,7 +83,7 @@
     margin-top: 30px;
 }
 
-.iconsContainer a {
+.sourceContainer a {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -78,24 +97,16 @@
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }
 
-.iconsContainer a:hover {
+.sourceContainer a:hover {
     background-color: rgba(56, 189, 248, 0.1);
     transform: translateY(-3px);
     box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
 }
 
-.icon {
+.source {
     width: 75px;
     height: 75px;
     object-fit: contain;
     filter: brightness(0) invert(1);
     transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.iconsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 35px;
 }

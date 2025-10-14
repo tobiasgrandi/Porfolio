@@ -9,6 +9,24 @@
     border-radius: 12px;
     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.35s ease-in-out;
+    overflow-y: auto;      
+    max-height: 100vh;     
+    scrollbar-width: thin; 
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.4);
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.6);
 }
 
 .title {

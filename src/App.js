@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 import Sidebar from './components/Sidebar/Sidebar';
 import ProjectDetail from './components/ProjectDetail/ProjectDetail';
@@ -20,6 +20,14 @@ function App() {
 
   const all = projects.concat(papers);
   const selectedProject = all.find((p) => p.id === selectedId) || null;
+
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isSidebarOpen]);
 
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
 

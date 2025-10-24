@@ -1,5 +1,5 @@
 .sidebar {
-    width: 270px;
+    width: 350px;
     background: linear-gradient(180deg, #0f172a, #1e293b);
     padding: 25px 20px;
     box-sizing: border-box;
@@ -8,25 +8,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.35s ease-in-out;
-    overflow-y: auto;      
-    max-height: 100vh;     
-    scrollbar-width: thin; 
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
-}
-
-.sidebar::-webkit-scrollbar {
-  width: 6px;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  background: rgba(56, 189, 248, 0.4);
-  border-radius: 10px;
-}
-
-.sidebar::-webkit-scrollbar-thumb:hover {
-  background: rgba(56, 189, 248, 0.6);
+    transition: transform 0.35s ease-in-out;    
 }
 
 .title {
@@ -42,6 +24,24 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    max-height: 50vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: rgba(56, 189, 248, 0.4);
+    border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+    background: rgba(56, 189, 248, 0.6);
 }
 
 .item {

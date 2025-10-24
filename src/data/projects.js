@@ -3,6 +3,7 @@ import maze from '../assets/proyectsIcons/maze.svg';
 import snake from '../assets/proyectsIcons/snake.svg';
 import code from '../assets/proyectsIcons/code.svg';
 import youtube from '../assets/proyectsIcons/youtube.svg';
+import deeplearning from '../assets/proyectsIcons/deeplearning.svg';
 
 
 
@@ -41,6 +42,15 @@ La implementación se basa en una red neuronal que aproxima la función de polí
 
 Se incluyeron mecanismos de visualización y evaluación, permitiendo observar la evolución de la puntuación y el comportamiento del agente a lo largo del entrenamiento. Este proyecto demuestra la aplicación práctica de técnicas de aprendizaje por refuerzo en entornos dinámicos y secuenciales, destacando la capacidad del agente para aprender estrategias complejas de manera autónoma.`,
         sources: [{source: '', link: "https://github.com/tobiasgrandi/Agente_Snake_Game", img: githubIcon, alt:'Github logo'}]
+    },
+    {
+        id: "project-6",
+        title: "Multibranch Recurrent Neural Network",
+        icon: deeplearning,
+        description: `This project explores time series forecasting using advanced Recurrent Neural Networks. I implemented a multibranch RNN that combines an LSTM branch and a GRU branch, along with two single-branch models for comparison. Using a YouTube dataset, the models predict future video views based on historical metrics such as views, likes, dislikes, and comments.
+
+The multi-branch architecture demonstrates faster convergence while achieving performance comparable to single-branch models, providing an efficient approach to learning from sequential data. The project includes data preprocessing, model training, evaluation, and visualization of comparative results, all implemented in PyTorch.`,
+        sources: [{source: '', link: "https://github.com/tobiasgrandi/Multibranch-TimeSeries-NN", img: githubIcon, alt:'Github logo'}]
     },
     {
         id: "project-4",

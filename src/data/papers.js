@@ -2,8 +2,21 @@ import ieee from '../assets/proyectsIcons/ieee.svg';
 import ieee_cis from '../assets/proyectsIcons/ieee_cis.png';
 import researchgate from '../assets/proyectsIcons/researchgate.svg';
 import ant from '../assets/proyectsIcons/ant.svg';
+import conaiisi from '../assets/proyectsIcons/conaiisi.png'
+import river from '../assets/proyectsIcons/river.png' 
 
 const papers = [
+    {
+        id: "paper-3",
+        title: "Predicción del nivel del Río Gualeguaychú: construcción de un conjunto de datos y modelo basado en redes neuronales LSTM",
+        description: `Las inundaciones fluviales se originan cuando los ríos y arroyos exceden su capacidad de contención, desbordando sus riberas y vertiéndose en terrenos adyacentes. El impacto de estas crecidas puede incluir problemas sociales de salud, destrucción de obras de infraestructura, destrucción de viviendas, entre otros. No obstante, si se aplican medidas preventivas, las inundaciones pueden no resultar catastróficas para una ciudad. Para ello es necesario un sistema que pueda predecir las crecientes con un margen de tiempo adecuado. En este trabajo se presenta un estudio realizado sobre el río Gualeguaychú para la construcción de un modelo predictivo de estas características. En particular, se exploran fuentes de acceso abierto sobre variables relevantes para el fenómeno, se recopila y se construye un conjunto de datos apto para el uso en el entrenamiento de un modelo de aprendizaje automático. Además, como prueba de concepto, se utilizan redes neuronales tipo LSTM (Long Short Term Memory), se entrena y se evalúa su capacidad predictiva en distintos plazos de predicción. Finalmente, se propone una manera de visualizar las predicciones junto a la imprecisión propia de los pronósticos meteorológicos utilizados en el proceso predictivo. Los resultados son alentadores, aunque surgen interrogantes respecto de la calidad de las fuentes de datos y su disponibilidad en el entorno operativo.
+        
+        Este trabajo fue presentado en el marco del CoNaIISI 2025 (Congreso Nacional de Ingeniería Informática/Sistemas de información)`,
+        icon: river,
+        sources: [
+            {source: '', link: 'https://drive.google.com/file/d/1Rzla_rQ2t8JOHWnnkYkone0xUQpZ0vL4/view?usp=sharing', img: conaiisi, alt: 'CoNaIISI logo'}
+        ]
+    },
     {
         id: "paper-1",
         title: "Metrics for the Evaluation of Optimization Methods in Dynamic Problems: application to Vehicle Routing using Ant Systems",
